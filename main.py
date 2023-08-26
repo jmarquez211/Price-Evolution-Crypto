@@ -113,8 +113,8 @@ fig = go.Figure(data=[go.Candlestick(x=crypto_data.index,
                 low=crypto_data['Low'],
                 close=crypto_data['Close'])])
 fig.update_layout(title=f"Graph evolution prices of {selected_crypto}",
-                  xaxis_title='Fecha',
-                  yaxis_title='Precio',
+                  xaxis_title='Date',
+                  yaxis_title='Price',
                   xaxis_rangeslider_visible=False,
                   height=600,
                   width=800)
