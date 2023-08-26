@@ -1,7 +1,7 @@
 import yfinance as yf
 import streamlit as st
-from PIL import Image
-from urllib.request import urlopen
+#from PIL import Image   #if anyone wants to use images from another links
+#from urllib.request import urlopen
 
 
 
@@ -72,7 +72,6 @@ st.image('coinmarket.jpg',use_column_width=True)
 
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 # list of crypto available
